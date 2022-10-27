@@ -1,0 +1,29 @@
+.Encabezado{
+    background-color: #064663;
+    padding: 30px;
+}
+.Navegacion{
+    background-color: #041C32;
+    padding: 30px;
+}
+.Contenedor{
+    background-color: blueviolet;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+.Principal{
+    background-color: #ECB365;
+    padding: 30px;
+    grid-column: 2/5;
+}
+.Lateral{
+    background-color: #064663;
+    padding: 30px;
+    grid-column: 1/2;
+}
+.Pie{
+    color: #F3D6D6;
+    background-color: #041C32;
+    padding: 30px;
+}
